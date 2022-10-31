@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "REPLACEWITHPROJECTID"
+  default = "mb-devops-user17-prod"
   type    = string
 }
 
