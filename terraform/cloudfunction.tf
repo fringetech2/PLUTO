@@ -4,7 +4,7 @@ resource "google_cloudfunctions_function" "function" {
   available_memory_mb = 256
   runtime             = "python39"
   source_repository {
-     url = https://storage.cloud.google.com/mb-devops-user17-prod-repo/
+     url = "https://storage.cloud.google.com/mb-devops-user17-prod-repo"
   }
   entry_point       = "pubsub_to_bigquery"
   timeout = 60
